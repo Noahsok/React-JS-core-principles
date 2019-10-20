@@ -30,6 +30,10 @@ Basic notes for React.JS/ JS core principles
 
 ### React.Component Subclasses
 
-#### components
+#### Components
+
+- We use components to tell React what we want to see on the screen. When our data changes, React will efficiently update and re-render our components.
+
+-A component takes in parameters, called `props` (short for “properties”), and returns a hierarchy of views to display via the `render` method.
 
 -
