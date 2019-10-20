@@ -24,7 +24,7 @@ Basic notes for React.JS/ JS core principles
 
 - Constants are block-scoped, much like variables defined using the `let` statement. The value of a constant can't be changed through reassignment, and it can't be redeclared.
 
--[constReference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+[constReference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 
 ## React Core Principles
 
@@ -34,7 +34,7 @@ Basic notes for React.JS/ JS core principles
 
 - We use components to tell React what we want to see on the screen. When our data changes, React will efficiently update and re-render our components.
 
--A component takes in parameters, called `props` (short for “properties”), and returns a hierarchy of views to display via the `render` method.
+- A component takes in parameters, called `props` (short for “properties”), and returns a hierarchy of views to display via the `render` method.
 
-###### render()
+##### render()
 - The render method returns a description of what you want to see on the screen. React takes the description and displays the result. In particular, render returns a React element, which is a lightweight description of what to render. Most React developers use a special syntax called “JSX” which makes these structures easier to write. The <div /> syntax is transformed at build time to React.createElement('div').
