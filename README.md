@@ -28,8 +28,8 @@ Basic notes for React.JS/ JS core principles
 
 ## React Core Principles
 
-#### React.Component Subclasses
+### React.Component Subclasses
 
-## components
+#### components
 
 -
