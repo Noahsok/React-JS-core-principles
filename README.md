@@ -11,5 +11,5 @@ Basic notes for React.JS/ JS core principles
 ### Class function
 
 - A JavaScript class is a type of function
-[Class reference] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-[title](https://www.example.com)
+[Class reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
