@@ -12,3 +12,4 @@ Basic notes for React.JS/ JS core principles
 
 - A JavaScript class is a type of function
 [Class reference] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+k
