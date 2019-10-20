@@ -1,6 +1,6 @@
 # React-JS-core-principles
 Basic notes for React.JS/ JS core principles
-# Javascript  Cor Principles
+## Javascript  Cor Principles
 
 #### Arrow function expressions
 
@@ -26,6 +26,6 @@ Basic notes for React.JS/ JS core principles
 
 -[constReference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 
-# React Core Principles
+## React Core Principles
 
 ###
