@@ -21,7 +21,9 @@ These concepts have been taken from react.js Docs. I have used this as a way to 
 
 ###### Example:
 ```const name = 'Eric Banner';
-const element = <h1> Hello, {name}</h1>
+```
+
+```const element = <h1> Hello, {name}</h1>
 ```
 
 
