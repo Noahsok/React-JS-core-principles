@@ -1,7 +1,7 @@
 # React-JS-core-principles
 Basic notes for React.JS/ JS core principles
 - readme are basic notes and are not indepth.
-- Step-by-step files walk through core principles for react.js.
+- Step-by-step folder has specific files that walk through core principles for react.js.
 ## Javascript  Cor Principles
 
 #### Arrow function expressions
