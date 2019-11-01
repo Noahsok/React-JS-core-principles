@@ -1,106 +1,28 @@
-# React-JS-core-principles
-Basic notes for React.JS/ JS core principles
-- readme are basic notes and are not indepth.
-- Step-by-step folder has specific files that walk through core principles for react.js.
-## Javascript  Cor Principles
+# React-JS-core-principles / Docs
+This is a broken down version of [React Docs](https://reactjs.org/docs/getting-started.html). 
 
-#### Arrow function expressions
+# this is a WIP, I am a beginner and this is a way for me to lear React. Please keep in mind as this Project grows so will my understanding and skill level. 
 
-- With arrow functions there are no binding of `this` . In regular functions the `this` keyword represented the object that called the function, which could be the window, the document, a button or whatever. With arrow functions the `this` keyword always represents the object that defined the arrow function.
+#### Concept of "guide"
+The concept of this guide is simple. One way I learn is by reading and taking "notes" (when I say "notes" I actually mean rewriting the docs out as I go through them.) 
 
-- `=>` 
+This guide is my notes and some [CodePen](https://codepen.io/noahsok) projects. 
 
-#### Class function
+#### Navigating through this project is probably pretty self explanatory but here is a quick explination. 
 
-- A JavaScript class is a type of function
+- [CodePen Basic Components](https://github.com/Noahsok/React-JS-core-principles/tree/master/CodePen%20Basic%20Components)is where you can see some components I have made to show how to use some core principles. (WIP)
 
-[classReference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Create a New React App](https://github.com/Noahsok/React-JS-core-principles/tree/master/Create%20a%20New%20React%20App) is a small section on ways to create a new React app. (WIP)
 
-#### let statement
+- [step-by-step](https://github.com/Noahsok/React-JS-core-principles/tree/master/step-by-step) This is a breakdown of [The React Docs](https://reactjs.org/docs/getting-started.html). (WIP)
 
-- The let statement declares a block scope local variable, optionally initializing it to a value.
+# Disclaimer
 
-[letReference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+## **This is a WIP, I am a beginner and this is a way for me to lear React. Please keep in mind as this Project grows so will my understanding and skill level. **
 
-#### const
 
-- Constants are block-scoped, much like variables defined using the `let` statement. The value of a constant can't be changed through reassignment, and it can't be redeclared.
 
-[constReference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 
-#### slice()
-
-- slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included) where begin and end represent the index of items in that array. The original array will not be modified.
-
-#### map method
-
-- map method creates a new array with the results of calling a provided function on every element in the calling array
-
-## React Core Principles
-
-### React.Component Subclasses
-
-#### Components
-
-- We use components to tell React what we want to see on the screen. When our data changes, React will efficiently update and re-render our components.
-
-- A component takes in parameters, called `props` (short for “properties”), and returns a hierarchy of views to display via the `render` method.
-
-- Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
-
-##### Render()
-
-- The render method returns a description of what you want to see on the screen. React takes the description and displays the result. In particular, render returns a React element, which is a lightweight description of what to render. Most React developers use a special syntax called “JSX” which makes these structures easier to write. The <div /> syntax is transformed at build time to React.createElement('div').
-
-#### Super
-
-- In JavaScript classes, you need to always call `super` when defining the constructor of a subclass. All React component classes that have a constructor should start it with a `super(props)` call.
-
-#### JSX
-
-- JSX comes with the full power of JavaScript. You can put any JavaScript expressions within braces inside JSX. **Each React element is a JavaScript object that you can store in a variable or pass around in your program.
-
-#### State
-
-- state holds information about the component.
-
--  by default a `component` has no `state` 
-
-- use `state` when a `component` needs to keep track of information between renderings, that is when a `component` itself can create, update, and use `state`.
-
-- `state` is created in the `component`
-
-##### Constructor method
-
-- the constructor method is a special method for creating and initializing an object created within a class.
-
-#### Handling Events
-
-####### Handling events with React elements is very similar to handling events on DOM elements. There are some syntactic differences:
-
-- Events are named using camelCase, rather than lowercase.
-
-- With JSX you pass a function as an event handler, rather than a string. 
-
-####  immutability objects
-
-###### immutability
-
-- immutability means that something cannot change its value or state.
-
-- Avoiding direct data mutation lets us keep previous versions and reuse them
-
-- Detecting changes in immutable objects is considerably easier. If the immutable object that is being referenced is different than the previous one, then the object has changed.
-
-#### concat
-
-- concat() method doesn’t mutate the original array, so we prefer it.
-
-#### key
-
-- `key` is a special and reserved property in React. When an element is created, React extracts the `key` property and stores the `key` directly on the returned element. Even though `key` may look like it belongs in `props`, `key` cannot be referenced using `this.props.key`. React automatically uses `key` to decide which components to update. A component cannot inquire about its `key`.
-
-- keys do not need to be globally unique; they only need to be unique between components and their siblings.
 
 
 
