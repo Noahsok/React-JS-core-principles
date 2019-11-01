@@ -1,7 +1,5 @@
 # React-JS-core-principles / Docs
-This is a broken down version of [React Docs](https://reactjs.org/docs/getting-started.html). 
-
-# this is a WIP, I am a beginner and this is a way for me to lear React. Please keep in mind as this Project grows so will my understanding and skill level. 
+This is a broken down version of [React Docs](https://reactjs.org/docs/getting-started.html).  
 
 #### Concept of "guide"
 The concept of this guide is simple. One way I learn is by reading and taking "notes" (when I say "notes" I actually mean rewriting the docs out as I go through them.) 
@@ -18,7 +16,7 @@ This guide is my notes and some [CodePen](https://codepen.io/noahsok) projects.
 
 # Disclaimer
 
-## **This is a WIP, I am a beginner and this is a way for me to lear React. Please keep in mind as this Project grows so will my understanding and skill level. **
+# **This is a WIP, I am a beginner and this is a way for me to lear React. Please keep in mind as this Project grows so will my understanding and skill level. **
 
 
 
