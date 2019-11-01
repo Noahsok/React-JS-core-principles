@@ -16,7 +16,7 @@ This guide is my notes and some [CodePen](https://codepen.io/noahsok) projects.
 
 # Disclaimer
 
-# **This is a WIP, I am a beginner and this is a way for me to lear React. Please keep in mind as this Project grows so will my understanding and skill level. **
+# **This is a WIP, I am a beginner and this is a way for me to learn React. Please keep in mind as this Project grows so will my understanding and skill level.**
 
 
 
