@@ -43,3 +43,7 @@ It handles the rending of the component to the UI.
 ###### componentWillUnmount()
 
 - As the name suggests this lifecycle method is called just before the component is unmounted and destroyed. If there are any cleanup actions that you would need to do, this would be the right spot.
+
+#### DOM 
+
+- The "DOM" is a tree structure that represents the HTML of the website, and every HTML element is a "node" 
