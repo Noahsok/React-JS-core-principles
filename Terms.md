@@ -47,3 +47,8 @@ It handles the rending of the component to the UI.
 #### DOM 
 
 - The "DOM" is a tree structure that represents the HTML of the website, and every HTML element is a "node" 
+
+another way to look at this is:
+
+- The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects.
+- DOM methods allow programmatic access to the tree; with them you can change a document's structure, style of content.
